@@ -1,0 +1,250 @@
+body, html {
+    margin: 0 auto;
+    height: 100%;
+    counter-reset: header;
+}
+
+
+
+.header-fixed{
+    position: fixed;
+    z-index: 3;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    justify-content: space-between ;
+    width:1084px;
+    margin: auto;
+    align-items: center;
+
+}
+
+.logo{
+    width: 40%;
+    color: #000000;
+    font-family: Inconsolata;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navigation-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:60%;
+}
+
+.navigation-list > ul {
+    list-style: none;
+    width: 100%;
+    height: 11px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* end of header */
+
+.flex-column-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:1064px;
+    margin: auto;
+}
+
+.hello-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1064px;
+    height: 958px;
+    margin-top: 100px;
+}
+
+.perfect-day{
+    margin: auto;
+}
+
+.caption{
+    width: 85px;
+    height: 11px;
+    color: #b4ad9e;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2{
+    width: 100%;
+    height: 30px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text{
+    width: 893px;
+    height: 183px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* end of home section */
+
+.articles{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 479px;
+}
+
+.article-text{
+    width: 95%;
+    height: 183px;
+    color: #626262;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.email-entering{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 480px;
+    margin-top:100px;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    height:125px;
+    width: 401px;
+    border-bottom: 2px solid black;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.input-and-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    background: none;
+    border: none;
+    width:300px;
+}
+
+.button-arrow{
+    background: none;
+    border:none;
+    background-image: url("../img/arrow.png");
+    width: 32px;
+    height: 17px;
+}
+
+.info{
+    width:1064px;
+    height:200px;
+    display: flex;
+    align-items: center ;
+}
+
+.load-more{
+    margin: auto;
+    width: 166px;
+    height: 62px;
+    background: none;
+    border: 1px solid black;
+
+}
+
+/*end of main*/
+
+.footer{
+
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:1084px;
+    margin:auto;
+    height: 100%;
+}
+
+.left-part-of-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.right-part-of-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:30%;
+}
+
+.footer-text{
+    /* Style for "Terms and" */
+    width: 136px;
+    height: 12px;
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+}
+
+li{
+    list-style: none;
+    margin: auto;
+}
+
